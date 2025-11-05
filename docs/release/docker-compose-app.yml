@@ -23,7 +23,7 @@ services:
 
   # 部署后端项目
   s-pay-mall:
-    build: ../../
+    build: ../../   #
     container_name: s-pay-mall
     restart: on-failure
     ports:
